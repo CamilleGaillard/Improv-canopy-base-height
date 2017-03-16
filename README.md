@@ -1,2 +1,2 @@
-# aDGVM2_151103
-unified version of aDGVM2 including a number of bug fixes, Simon's additions for the soil carbon part from the side branch, Liam's changes in the hydrology part from his side branch, a modular routine to allow grazing, a modular routine to simulate trees with explicit crown geometry and branch biomass, and a new and improved way to write output to netcdf in PlantPopClass that makes it way easier and less confusing to add new variables to be written out. Note that due to this the format of the runconfig.cfg file has also changed. 
+# aDGVM2_CG_V.P.1
+Version used in  " Shrub strategy emerges from fundamental structural mechanism and complexes the grass-tree interactions in savannas. First process based shrubs in a DGVM. "
