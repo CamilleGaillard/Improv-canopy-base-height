@@ -505,7 +505,7 @@ int clPlantPop::runDailyProcesses( clGridCell *gridcell, int year, int day, floa
 				for ( int cmp=0; cmp<NUM_LIGHT_NGB; cmp++ )
 				{
 					// get heigh and lai of competing individuals, only if they are active
-					compheight[cmp]     = plant_pop_[compinds[cmp]].getHeight()*(float)plant_pop_[compinds[cmp]].getActive();
+					compheight[cmp]     = plant_pop_[compinds[cmp]].getCrown_h_base()*(float)plant_pop_[compinds[cmp]].getActive();
 					compheight_lai[cmp] = plant_pop_[compinds[cmp]].getLai()   *(float)plant_pop_[compinds[cmp]].getActive();
 					compheight_crown_area[cmp] = plant_pop_[compinds[cmp]].getCrownArea()*(double)plant_pop_[compinds[cmp]].getActive();
 

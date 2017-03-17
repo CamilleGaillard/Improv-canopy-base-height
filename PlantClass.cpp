@@ -736,7 +736,7 @@ void clPlant::runDailyProcesses( int year, int dct, GridCellSoilData* soil, doub
 	
 	double Rm_Sum_ = 0;
 	
-	double height_comp = height_*can_frm_helper_;
+	double height_comp = crown_h_base_*can_frm_helper_;
 	
 	if(dct_==0) {sum_active_ = 0 ; sum_light_ = 0. ; sum_water_ = 0.; }
 	if(active_==1) sum_active_++ ;

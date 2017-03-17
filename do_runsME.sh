@@ -1,15 +1,7 @@
 #!/bin/bash
 
-mpirun -n 1 ./aDGVM 1 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 2 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 3 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 4 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 5 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 6 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 7 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 8 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 9 1 29 30 -25 5 &
-mpirun -n 1 ./aDGVM 10 1 29 30 -25 5 &
+mpirun -n 10 ./aDGVM 1 1 29 30 -25 5 &
+
 
 
 #echo "FIRST 4 RUNS OF SERIES DONE"
